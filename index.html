@@ -4,18 +4,21 @@
   <title>Frontend JS</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <script src="app.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Miniver|PT+Serif|Dosis' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
+    <div class="clipped">
     <h1>
 <!--       <img class="logo" src="http://www.yellowjammarketing.com/wp-content/uploads/2015/01/Speech-Mark.png" /> -->
-      Quotes
+      Coding Quotes
     </h1>
+    </div>
   </header>
   <main>
     <intro>
-      <p id="tagline">Welcome to our super awesome quotes site full of super awesome quote goodness.</p>
-      <p>Here you will find lots of quotes about programming.</p>
+      <p class="tagline">Welcome to our super awesome quotes site full of super awesome quote goodness.</p>
+      <p class="tagline">Here you will find lots of quotes about programming.</p>
     </intro>
     <section id="quotes">
       <article id="quote">
@@ -37,17 +40,18 @@
         <label>
         Add a quote:
         </label>
+        <div form>
         <input type="text" id="quote-input" size="40" placeholder="Enter quote">
         <input type="text" id="author-input" size="40" placeholder="Enter author">
         <input type="button" id="add-button" value="Add Quote">
       </form>
-
+      </div>
         <h2>Sign up</h2>
-        <p>Get a cool programming quote delivered to your inbox every day.</p>
+        <p id="strapline">Get a cool programming quote delivered to your inbox every day.</p>
         <form name="theForm">
           <fieldset>
             <label>
-              Email Address
+              Email Address: 
             </label>
             <input type="text" placeholder="your email address" />
             <button>Submit</button>

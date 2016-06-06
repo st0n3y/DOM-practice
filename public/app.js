@@ -4,10 +4,10 @@ window.onload = function(){
 
 
 quoteArray = [
-  {text: "Visual Basic is the way forward; I don't know why we are doing JavaScript.", author: "Jay Chetty"},
-  {text: "The only CSS you need to know is background-color: tomato.", author: "Rick"},
-  {text: "I used the jQuery diet plugin and lost 10kg in a week.", author: "Keith"},
-  {text: "Scaffolding is nothing but a fiery hell.", author: "Valerie"}
+  {text: "'Visual Basic is the way forward; I don't know why we are doing JavaScript.'", author: " - Jay Chetty"},
+  {text: "'The only CSS you need to know is background-color: tomato.'", author: " - Rick"},
+  {text: "'I used the jQuery diet plugin and lost 10kg in a week.'", author: " - Keith"},
+  {text: "'Scaffolding is nothing but a fiery hell.'", author: " - Valerie"}
 ]
 
 
@@ -62,8 +62,8 @@ var handleSubmit = function( event ) {
 
 var handleInputClick = function() {
   
-  var quoteInput = document.getElementById( "quote-input" )
-  var authorInput = document.getElementById( "author-input" )
+  var quoteInput = document.getElementById( "quote-input" );
+  var authorInput = document.getElementById( "author-input" );
   var quote = {
     text: quoteInput.value,
     author: authorInput.value

@@ -1,3 +1,103 @@
+* {
+  text-align: center;
+}
+
+intro p {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#strapline {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 10px;
+}
+
+body { 
+  color: #64645A; 
+  background: #83b9d4 url(bg.jpg) repeat; 
+  font: normal 70% Georgia, Palatino, Times, Times New Roman, serif; 
+  color: #666;
+}
+
+p { 
+  text-align: center;
+  font: 115% Georgia, Palatino, Times, Times New Roman, serif; 
+  line-height: 1.5;
+  margin-top: 0px; 
+  text-align: justify;
+  padding-left: 14px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+}
+
+.clipped {
+    /*background: url(http://www.forumgarden.com/forums/attachments/history/1848d1120241774-declaration-independence-d-independence-2-1.jpg) no-repeat center center;*/
+    background: url(http://sf.co.ua/13/01/wallpaper-2543834.jpg) no-repeat center center;
+    background-size: 100% auto;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    /* -webkit-background-clip clips the background of the element to the text */
+    -webkit-text-fill-color: transparent; /* overrides the white text color in webkit browsers */
+    -webkit-background-clip: text;
+  }
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  font-size: 10vw;
+  font-weight: 900;
+  letter-spacing: -3px;
+  line-height: 1;
+  font-weight: bold;
+  margin: 30px;
+/*  text-shadow: 0 0 60px #47f041, 0 0 65px #47f041;
+*/  }
+}
+
+/*h1 {
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-size: 6em;
+  background-color: #000;
+  padding: 30px;
+}*/
+
+.tagline {
+  font-family: 'PT Serif', serif;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+#quote {
+  color: black;
+  font-family: 'Miniver', cursive;
+  font-size: 2.5em;
+  padding: 10px;
+}
+
+#quote cite {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+}
+
+form {
+  padding-bottom: 40px;
+}
+
+label {
+  font-size: 1.75em;
+}
+
+form {
+  padding: 40px;
+}
+
+
+
+
+
 .logo {
   width: 50px;
   height: 50px;
