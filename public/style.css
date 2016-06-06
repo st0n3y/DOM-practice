@@ -15,7 +15,10 @@ intro p {
 
 body { 
   color: #64645A; 
-  background: #83b9d4 url(bg.jpg) repeat; 
+  background: #83b9d4; 
+
+/*  background-color: black;
+*/
   font: normal 70% Georgia, Palatino, Times, Times New Roman, serif; 
   color: #666;
 }
@@ -52,8 +55,10 @@ h1 {
   line-height: 1;
   font-weight: bold;
   margin: 30px;
+
 /*  text-shadow: 0 0 60px #47f041, 0 0 65px #47f041;
-*/  }
+*/
+  }
 }
 
 /*h1 {
@@ -71,7 +76,7 @@ h1 {
 }
 
 #quote {
-  color: black;
+  color: white;
   font-family: 'Miniver', cursive;
   font-size: 2.5em;
   padding: 10px;
